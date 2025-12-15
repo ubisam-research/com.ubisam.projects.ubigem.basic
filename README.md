@@ -9,16 +9,15 @@
 1. 탐색기에서 `UbiSam.Sources.Revision.sln` 실행
 2. **`UbiSam.KeyLock` 빌드**
 3. **`UbiCom.Net.Automata.SECS2` 빌드**
-4. **`UbiSam.KeyLock` 빌드**<br>
-   : UbiCom.Net.Automata.SECS2 빌드 후, 난독화 과정을 거치므로
-     UbiGEM.Net 빌드 전 반드시 UbiSam.KeyLock을 한번 더 빌드해야됨   
+4. **`UbiSam.KeyLock` 재빌드**  
+   - `UbiCom.Net.Automata.SECS2` 빌드 후 난독화 과정을 거치므로  
+     `UbiGEM.Net` 빌드 전에 **반드시 KeyLock을 한 번 더 빌드**해야 합니다.
 5. **`UbiGEM.Net` 빌드**
-   - 빌드 완료 후 `BIN\Confused` 폴더가 생성됨
-6. `BIN\Confused` 폴더 내 **4개 파일**을  
-   `Setup\BIN Data\UbiGEM\BIN` 폴더로 복사
+   - 빌드 완료 후 `BIN\Confused` 폴더가 생성됩니다.
+6. `BIN\Confused` 폴더 내 **4개 파일**을 `Setup\BIN Data\UbiGEM\BIN` 폴더로 복사
 7. `Setup\UbiGEM` 폴더에서 `UbiGEM.sln` 실행
 8. **`UbiGEM` 빌드**
-9. `Setup\Setup Files\` 폴더 내 생성된 **`UbiGEM.msi`** 를 압축(zip)하여 배포용 패키지 생성
+9. `Setup\Setup Files\` 폴더에 생성된 **`UbiGEM.msi`**를 ZIP으로 압축하여 배포 패키지 생성
 
 ---
 
