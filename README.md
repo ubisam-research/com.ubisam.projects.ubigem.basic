@@ -9,7 +9,7 @@
 1. 탐색기에서 `UbiSam.Sources.Revision.sln` 실행
 2. **`UbiSam.KeyLock` 빌드**
 3. **`UbiCom.Net.Automata.SECS2` 빌드**
-4. **`UbiSam.KeyLock` 빌드**
+4. **`UbiSam.KeyLock` 빌드** <br>
    : UbiCom.Net.Automata.SECS2 빌드 후, 난독화 과정을 거치므로
      UbiGEM.Net 빌드 전 반드시 UbiSam.KeyLock을 한번 더 빌드해야됨   
 5. **`UbiGEM.Net` 빌드**
