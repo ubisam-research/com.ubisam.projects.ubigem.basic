@@ -10,8 +10,8 @@
 2. **`UbiSam.KeyLock` 빌드**
 3. **`UbiCom.Net.Automata.SECS2` 빌드**
 4. **`UbiSam.KeyLock` 빌드**
-   (*) UbiCom.Net.Automata.SECS2 빌드 후, 난독화 과정을 거치므로
-       UbiGEM.Net 빌드 전 반드시 UbiSam.KeyLock을 한번 더 빌드해야됨   
+   : UbiCom.Net.Automata.SECS2 빌드 후, 난독화 과정을 거치므로
+     UbiGEM.Net 빌드 전 반드시 UbiSam.KeyLock을 한번 더 빌드해야됨   
 5. **`UbiGEM.Net` 빌드**
    - 빌드 완료 후 `BIN\Confused` 폴더가 생성됨
 6. `BIN\Confused` 폴더 내 **4개 파일**을  
